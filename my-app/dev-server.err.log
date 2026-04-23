@@ -1,0 +1,737 @@
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\vinmu\OneDrive\Desktop\theabilityininability\package-lock.json as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * C:\Users\vinmu\OneDrive\Desktop\theabilityininability\my-app\package-lock.json
+
+[browser] Uncaught Error: Module [project]/my-app/node_modules/lucide-react/dist/esm/icons/menu.js [app-client] (ecmascript) <export default as Menu> was instantiated because it was required from module [project]/my-app/src/components/layout/Navbar.tsx [app-client] (ecmascript), but the module factory is not available.
+This is often caused by a stale browser cache, misconfigured Cache-Control headers, or a service worker serving outdated responses.
+To fix this, make sure your Cache-Control headers allow revalidation of chunks and review your service worker configuration. As an immediate workaround, try hard-reloading the page, clearing the browser cache, or unregistering any service workers.
+    at instantiateModuleShared (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/turbopack-my-app_0.6vflx._.js:1272:15)
+    at instantiateModule (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/turbopack-my-app_0.6vflx._.js:1621:12)
+    at getOrInstantiateModuleFromParent (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/turbopack-my-app_0.6vflx._.js:1604:12)
+    at DevContext.esmImport [as i] (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/turbopack-my-app_0.6vflx._.js:278:20)
+    at module evaluation (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/my-app_src_components_layout_Navbar_tsx_0d1t-44._.js:13:240)
+    at <unknown> (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/turbopack-my-app_0.6vflx._.js:1307:27)
+    at runModuleExecutionHooks (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/turbopack-my-app_0.6vflx._.js:1636:13)
+    at instantiateModuleShared (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/turbopack-my-app_0.6vflx._.js:1305:9)
+    at instantiateModule (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/turbopack-my-app_0.6vflx._.js:1621:12)
+    at getOrInstantiateModuleFromParent (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/turbopack-my-app_0.6vflx._.js:1604:12)
+    at DevContext.commonJsRequire [as r] (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/turbopack-my-app_0.6vflx._.js:299:12)
+    at requireModule (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/01ee_next_dist_compiled_react-server-dom-turbopack_0s7j4nw._.js:95:84)
+    at initializeModuleChunk (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/01ee_next_dist_compiled_react-server-dom-turbopack_0s7j4nw._.js:1110:25)
+    at readChunk (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/01ee_next_dist_compiled_react-server-dom-turbopack_0s7j4nw._.js:846:17)
+    at Object.react_stack_bottom_frame (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/01ee_next_dist_compiled_react-dom_02t~2sr._.js:15101:20)
+    at resolveLazy (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/01ee_next_dist_compiled_react-dom_02t~2sr._.js:3866:20)
+    at beginWork (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/01ee_next_dist_compiled_react-dom_02t~2sr._.js:6665:77)
+    at runWithFiberInDEV (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/01ee_next_dist_compiled_react-dom_02t~2sr._.js:965:74)
+    at performUnitOfWork (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/01ee_next_dist_compiled_react-dom_02t~2sr._.js:9555:97)
+    at workLoopConcurrentByScheduler (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/01ee_next_dist_compiled_react-dom_02t~2sr._.js:9551:58)
+    at renderRootConcurrent (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/01ee_next_dist_compiled_react-dom_02t~2sr._.js:9534:71)
+    at performWorkOnRoot (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/01ee_next_dist_compiled_react-dom_02t~2sr._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/01ee_next_dist_compiled_react-dom_02t~2sr._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://C:/Users/vinmu/OneDrive/Desktop/theabilityininability/my-app/.next/dev/static/chunks/01ee_next_dist_compiled_0.q490v._.js:2647:64)
+    at RootLayout (about://React/Server/C:%5CUsers%5Cvinmu%5COneDrive%5CDesktop%5Ctheabilityininability%5Cmy-app%5C.next%5Cdev%5Cserver%5Cchunks%5Cssr%5Cmy-app_0_fam2p._.js?33:349:281)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{rsc:{...}, ...}}>
+                    <__next_viewport_boundary__>
+                    <MetadataWrapper>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <RootLayout>
+                        <html lang="en" className="h-full ant..." suppressHydrationWarning={true}>
+                          <body suppressHydrationWarning={true} className="min-h-full...">
+                            <Navbar>
+                              <header className="sticky top...">
+                                <div
+                                  className="relative mx-auto flex h-[50px] w-full max-w-[1320px] items-center justify..."
+-                                 bis_skin_checked="1"
+                                >
+                                  <LinkComponent>
+                                  <nav>
+                                  <div
+                                    className="flex items-center gap-3"
+-                                   bis_skin_checked="1"
+                                  >
+                            ...
+                              <SegmentViewNode type="page" pagePath="page.tsx">
+                                <SegmentTrieNode>
+                                <Home>
+                                  <div
+                                    className="flex flex-col"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <HeroSection>
+                                      <section className="relative b...">
+                                        <div
+                                          className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-pr..."
+                                          aria-hidden="true"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-..."
+                                          aria-hidden="true"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="container mx-auto text-center relative z-10"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <h1>
+                                          <p>
+                                          <div
+                                            className="flex flex-col sm:flex-row items-center justify-center space-y-4..."
+-                                           bis_skin_checked="1"
+                                          >
+                                    <TrustIndicators>
+                                      <section className="py-16 px-4...">
+                                        <div
+                                          className="container mx-auto"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 text-center bg-w..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="p-4 rounded-xl transition-transform hover:-translate-y-1 hove..."
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="text-4xl md:text-5xl font-extrabold text-primary-600 mb-2"
+-                                               bis_skin_checked="1"
+                                              >
++                                               500+
+                                              <div
+                                                className="text-sm md:text-base font-medium font-sans text-gray-500 up..."
+-                                               bis_skin_checked="1"
+                                              >
++                                               Lives Touched
+                                            <div
+                                              className="p-4 rounded-xl transition-transform hover:-translate-y-1 hove..."
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="text-4xl md:text-5xl font-extrabold text-primary-600 mb-2"
+-                                               bis_skin_checked="1"
+                                              >
++                                               20+
+                                              <div
+                                                className="text-sm md:text-base font-medium font-sans text-gray-500 up..."
+-                                               bis_skin_checked="1"
+                                              >
++                                               Communities
+                                            <div
+                                              className="p-4 rounded-xl transition-transform hover:-translate-y-1 hove..."
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="text-4xl md:text-5xl font-extrabold text-primary-600 mb-2"
+-                                               bis_skin_checked="1"
+                                              >
++                                               10
+                                              <div
+                                                className="text-sm md:text-base font-medium font-sans text-gray-500 up..."
+-                                               bis_skin_checked="1"
+                                              >
++                                               Core Programs
+                                            <div
+                                              className="p-4 rounded-xl transition-transform hover:-translate-y-1 hove..."
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="text-4xl md:text-5xl font-extrabold text-primary-600 mb-2"
+-                                               bis_skin_checked="1"
+                                              >
++                                               100%
+                                              <div
+                                                className="text-sm md:text-base font-medium font-sans text-gray-500 up..."
+-                                               bis_skin_checked="1"
+                                              >
++                                               Inclusive Space
+                                    <MissionPreview>
+                                      <section className="py-24 px-4...">
+                                        <div
+                                          className="container mx-auto max-w-4xl text-center"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="inline-block px-3 py-1 bg-accent-100 text-accent-600 rounded-fu..."
+-                                           bis_skin_checked="1"
+                                          >
++                                           Our Purpose
+                                          ...
+                                    <ProgramsSummary>
+                                      <section className="py-24 px-4...">
+                                        <div
+                                          className="container mx-auto"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="text-center max-w-2xl mx-auto mb-16"
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="grid grid-cols-1 md:grid-cols-3 gap-8"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <ProgramCard>
+                                              <div
+                                                className="bg-white rounded-2xl p-6 shadow-trust transition-all durati..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="w-14 h-14 bg-primary-50 rounded-xl flex items-center just..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                            <ProgramCard>
+                                              <div
+                                                className="bg-white rounded-2xl p-6 shadow-trust transition-all durati..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="w-14 h-14 bg-primary-50 rounded-xl flex items-center just..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                            <ProgramCard>
+                                              <div
+                                                className="bg-white rounded-2xl p-6 shadow-trust transition-all durati..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="w-14 h-14 bg-primary-50 rounded-xl flex items-center just..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                    <ImpactStoriesSection>
+                                      <section className="py-24 px-4...">
+                                        <div
+                                          className="container mx-auto"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="text-center max-w-2xl mx-auto mb-16"
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="grid grid-cols-1 md:grid-cols-3 gap-8"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <StoryCard>
+                                              <div
+                                                className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 r..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute top-0 right-8 -mt-6"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="w-12 h-12 bg-accent-100 rounded-full flex items-center ..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <p>
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="font-bold text-gray-900"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Tinashe Ndlovu
+                                                  <div
+                                                    className="text-sm text-gray-500 font-medium"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Vocational Program Graduate
+                                            <StoryCard>
+                                              <div
+                                                className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 r..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute top-0 right-8 -mt-6"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="w-12 h-12 bg-accent-100 rounded-full flex items-center ..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <p>
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="font-bold text-gray-900"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Grace Mutasa
+                                                  <div
+                                                    className="text-sm text-gray-500 font-medium"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Community Member
+                                            <StoryCard>
+                                              <div
+                                                className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 r..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute top-0 right-8 -mt-6"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="w-12 h-12 bg-accent-100 rounded-full flex items-center ..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <p>
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="font-bold text-gray-900"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Sekuru Moyo
+                                                  <div
+                                                    className="text-sm text-gray-500 font-medium"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Community Leader
+                                    <CallToAction>
+                                      <section className="py-24 px-4...">
+                                        <div
+                                          className="absolute top-0 right-0 -mr-10 -mt-10 w-64 h-64 rounded-full bg-pr..."
+                                          aria-hidden="true"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="absolute bottom-0 left-0 -ml-10 -mb-10 w-64 h-64 rounded-full bg-..."
+                                          aria-hidden="true"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="container mx-auto max-w-4xl text-center relative z-10"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <h2>
+                                          <p>
+                                          <div
+                                            className="flex flex-col sm:flex-row items-center justify-center space-y-4..."
+-                                           bis_skin_checked="1"
+                                          >
+                              ...
+                            <Footer>
+                              <footer className="bg-gray-50...">
+                                <div
+                                  className="container mx-auto px-4 py-12"
+-                                 bis_skin_checked="1"
+                                >
+                                  <div
+                                    className="grid grid-cols-1 md:grid-cols-4 gap-8"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="space-y-4"
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                  <div
+                                    className="mt-12 pt-8 border-t border-gray-200 text-center text-sm text-gray-500 f..."
+-                                   bis_skin_checked="1"
+                                  >
+                                    <p>
+                                    <div
+                                      className="mt-4 md:mt-0 space-x-4"
+-                                     bis_skin_checked="1"
+                                    >
+                  ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{rsc:{...}, ...}}>
+                    <__next_viewport_boundary__>
+                    <MetadataWrapper>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <RootLayout>
+                        <html lang="en" className="h-full ant..." suppressHydrationWarning={true}>
+                          <body suppressHydrationWarning={true} className="min-h-full...">
+                            <Navbar>
+                              <header className="sticky top...">
+                                <div
+                                  className="relative mx-auto flex h-[50px] w-full max-w-[1320px] items-center justify..."
+-                                 bis_skin_checked="1"
+                                >
+                                  <LinkComponent>
+                                  <nav>
+                                  <div
+                                    className="flex items-center gap-3"
+-                                   bis_skin_checked="1"
+                                  >
+                            ...
+                              <SegmentViewNode type="page" pagePath="page.tsx">
+                                <SegmentTrieNode>
+                                <Home>
+                                  <div
+                                    className="flex flex-col"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <HeroSection>
+                                      <section className="relative b...">
+                                        <div
+                                          className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-pr..."
+                                          aria-hidden="true"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-..."
+                                          aria-hidden="true"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="container mx-auto text-center relative z-10"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <h1>
+                                          <p>
+                                          <div
+                                            className="flex flex-col sm:flex-row items-center justify-center space-y-4..."
+-                                           bis_skin_checked="1"
+                                          >
+                                    <TrustIndicators>
+                                      <section className="py-16 px-4...">
+                                        <div
+                                          className="container mx-auto"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 text-center bg-w..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="p-4 rounded-xl transition-transform hover:-translate-y-1 hove..."
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="text-4xl md:text-5xl font-extrabold text-primary-600 mb-2"
+-                                               bis_skin_checked="1"
+                                              >
++                                               500+
+                                              <div
+                                                className="text-sm md:text-base font-medium font-sans text-gray-500 up..."
+-                                               bis_skin_checked="1"
+                                              >
++                                               Lives Touched
+                                            <div
+                                              className="p-4 rounded-xl transition-transform hover:-translate-y-1 hove..."
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="text-4xl md:text-5xl font-extrabold text-primary-600 mb-2"
+-                                               bis_skin_checked="1"
+                                              >
++                                               20+
+                                              <div
+                                                className="text-sm md:text-base font-medium font-sans text-gray-500 up..."
+-                                               bis_skin_checked="1"
+                                              >
++                                               Communities
+                                            <div
+                                              className="p-4 rounded-xl transition-transform hover:-translate-y-1 hove..."
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="text-4xl md:text-5xl font-extrabold text-primary-600 mb-2"
+-                                               bis_skin_checked="1"
+                                              >
++                                               10
+                                              <div
+                                                className="text-sm md:text-base font-medium font-sans text-gray-500 up..."
+-                                               bis_skin_checked="1"
+                                              >
++                                               Core Programs
+                                            <div
+                                              className="p-4 rounded-xl transition-transform hover:-translate-y-1 hove..."
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="text-4xl md:text-5xl font-extrabold text-primary-600 mb-2"
+-                                               bis_skin_checked="1"
+                                              >
++                                               100%
+                                              <div
+                                                className="text-sm md:text-base font-medium font-sans text-gray-500 up..."
+-                                               bis_skin_checked="1"
+                                              >
++                                               Inclusive Space
+                                    <MissionPreview>
+                                      <section className="py-24 px-4...">
+                                        <div
+                                          className="container mx-auto max-w-4xl text-center"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="inline-block px-3 py-1 bg-accent-100 text-accent-600 rounded-fu..."
+-                                           bis_skin_checked="1"
+                                          >
++                                           Our Purpose
+                                          ...
+                                    <ProgramsSummary>
+                                      <section className="py-24 px-4...">
+                                        <div
+                                          className="container mx-auto"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="text-center max-w-2xl mx-auto mb-16"
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="grid grid-cols-1 md:grid-cols-3 gap-8"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <ProgramCard>
+                                              <div
+                                                className="bg-white rounded-2xl p-6 shadow-trust transition-all durati..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="w-14 h-14 bg-primary-50 rounded-xl flex items-center just..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                            <ProgramCard>
+                                              <div
+                                                className="bg-white rounded-2xl p-6 shadow-trust transition-all durati..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="w-14 h-14 bg-primary-50 rounded-xl flex items-center just..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                            <ProgramCard>
+                                              <div
+                                                className="bg-white rounded-2xl p-6 shadow-trust transition-all durati..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="w-14 h-14 bg-primary-50 rounded-xl flex items-center just..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                    <ImpactStoriesSection>
+                                      <section className="py-24 px-4...">
+                                        <div
+                                          className="container mx-auto"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="text-center max-w-2xl mx-auto mb-16"
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="grid grid-cols-1 md:grid-cols-3 gap-8"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <StoryCard>
+                                              <div
+                                                className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 r..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute top-0 right-8 -mt-6"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="w-12 h-12 bg-accent-100 rounded-full flex items-center ..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <p>
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="font-bold text-gray-900"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Tinashe Ndlovu
+                                                  <div
+                                                    className="text-sm text-gray-500 font-medium"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Vocational Program Graduate
+                                            <StoryCard>
+                                              <div
+                                                className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 r..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute top-0 right-8 -mt-6"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="w-12 h-12 bg-accent-100 rounded-full flex items-center ..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <p>
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="font-bold text-gray-900"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Grace Mutasa
+                                                  <div
+                                                    className="text-sm text-gray-500 font-medium"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Community Member
+                                            <StoryCard>
+                                              <div
+                                                className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 r..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute top-0 right-8 -mt-6"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="w-12 h-12 bg-accent-100 rounded-full flex items-center ..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <p>
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="font-bold text-gray-900"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Sekuru Moyo
+                                                  <div
+                                                    className="text-sm text-gray-500 font-medium"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Community Leader
+                                    <CallToAction>
+                                      <section className="py-24 px-4...">
+                                        <div
+                                          className="absolute top-0 right-0 -mr-10 -mt-10 w-64 h-64 rounded-full bg-pr..."
+                                          aria-hidden="true"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="absolute bottom-0 left-0 -ml-10 -mb-10 w-64 h-64 rounded-full bg-..."
+                                          aria-hidden="true"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="container mx-auto max-w-4xl text-center relative z-10"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <h2>
+                                          <p>
+                                          <div
+                                            className="flex flex-col sm:flex-row items-center justify-center space-y-4..."
+-                                           bis_skin_checked="1"
+                                          >
+                              ...
+                            <Footer>
+                              <footer className="bg-gray-50...">
+                                <div
+                                  className="container mx-auto px-4 py-12"
+-                                 bis_skin_checked="1"
+                                >
+                                  <div
+                                    className="grid grid-cols-1 md:grid-cols-4 gap-8"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="space-y-4"
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                  <div
+                                    className="mt-12 pt-8 border-t border-gray-200 text-center text-sm text-gray-500 f..."
+-                                   bis_skin_checked="1"
+                                  >
+                                    <p>
+                                    <div
+                                      className="mt-4 md:mt-0 space-x-4"
+-                                     bis_skin_checked="1"
+                                    >
+                  ...
+ 

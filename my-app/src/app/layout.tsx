@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "../styles/globals.css";
-import Navbar from "@/components/layout/Navbar";
+import SiteNavbar from "@/components/layout/SiteNavbar";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
@@ -20,7 +20,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body suppressHydrationWarning className="min-h-full flex flex-col font-sans">
-        <Navbar />
+        <SiteNavbar />
         <main className="flex-grow">{children}</main>
         <Footer />
       </body>
