@@ -63,7 +63,7 @@ function PartnerBadge({
 
 export default function HeroSection() {
   return (
-    <section className="relative isolate overflow-hidden bg-[#0a0907]">
+    <section className="relative isolate h-[80vh] overflow-hidden bg-[#0a0907]">
       <div
         aria-hidden="true"
         className="absolute inset-0 bg-cover bg-center"
@@ -82,37 +82,37 @@ export default function HeroSection() {
         }}
       />
 
-      <div className="relative z-10 mx-auto flex min-h-[calc(100vh-50px)] w-full max-w-[1320px] px-4 sm:px-6 lg:px-8">
-        <div className="flex w-full items-start py-16 sm:py-20 lg:py-24">
-          <div className="max-w-[780px]">
-            <h1 className="max-w-[760px] text-[2.7rem] font-black leading-[0.96] tracking-[-0.05em] text-white sm:text-[3.4rem] lg:text-[4.1rem]">
+      <div className="relative z-10 mx-auto flex h-full w-full max-w-[1320px] px-4 sm:px-6 lg:px-8">
+        <div className="flex w-full items-center py-8 sm:py-10 lg:py-12">
+          <div className="max-w-[700px]">
+            <h1 className="max-w-[680px] text-[2rem] font-black leading-[0.98] tracking-[-0.045em] text-white sm:text-[2.55rem] lg:text-[3.2rem]">
               Unlock Advanced Resources And AI-Driven Opportunities To Transform Futures.
             </h1>
 
-            <p className="mt-8 max-w-[520px] text-sm leading-7 text-white/68 sm:text-[15px]">
+            <p className="mt-5 max-w-[500px] text-[13px] leading-6 text-white/68 sm:text-sm sm:leading-6">
               Libero mauris sed sed proin. Blandit aliquet ipsum faucibus dictum natoque arcu.
               Potenti ante sed in amet massa aliquet. Enim dui urna mauris volutpat
             </p>
 
-            <div className="mt-12 flex flex-col gap-5 text-white sm:flex-row sm:flex-wrap sm:items-center sm:gap-10">
+            <div className="mt-8 flex flex-col gap-4 text-white sm:flex-row sm:flex-wrap sm:items-center sm:gap-8">
               <div className="flex items-baseline gap-3">
-                <span className="text-[2rem] font-black leading-none tracking-[-0.05em] text-[#ff8a1c]">
+                <span className="text-[1.6rem] font-black leading-none tracking-[-0.04em] text-[#ff8a1c] sm:text-[1.8rem]">
                   $1 284 528
                 </span>
-                <span className="text-sm text-white/82">Donation</span>
+                <span className="text-[13px] text-white/82 sm:text-sm">Donation</span>
               </div>
 
               <div className="flex items-baseline gap-3">
-                <span className="text-[2rem] font-black leading-none tracking-[-0.05em] text-[#ff8a1c]">
+                <span className="text-[1.6rem] font-black leading-none tracking-[-0.04em] text-[#ff8a1c] sm:text-[1.8rem]">
                   12 460
                 </span>
-                <span className="max-w-[220px] text-sm text-white/82">
+                <span className="max-w-[220px] text-[13px] leading-5 text-white/82 sm:text-sm">
                   Women Placed In STEM Careers
                 </span>
               </div>
             </div>
 
-            <div className="mt-14 flex flex-wrap items-center gap-x-8 gap-y-5">
+            <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-4">
               <PartnerBadge label="logoipsum" variant="ring" />
               <PartnerBadge label="HYPER BYTE" variant="crest" />
               <PartnerBadge label="logoipsum" variant="ring" />

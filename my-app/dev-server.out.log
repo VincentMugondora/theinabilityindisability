@@ -4,23 +4,13 @@
 
 ▲ Next.js 16.2.4 (webpack)
 - Local:         http://localhost:3000
-- Network:       http://192.168.0.133:3000
-✓ Ready in 915ms
+- Network:       http://192.168.137.1:3000
+✓ Ready in 3.3s
 
 ○ Compiling / ...
- GET / 200 in 15.0s (next.js: 13.3s, application-code: 1677ms)
- GET /sw.js 404 in 2.6s (next.js: 2.2s, application-code: 412ms)
- GET /_next/_next/static/chunks/my-app_src_app_layout_tsx_0g.l.x_._.js 404 in 164ms (next.js: 16ms, application-code: 148ms)
- GET /sw.js 404 in 158ms (next.js: 16ms, application-code: 141ms)
- GET / 200 in 467ms (next.js: 53ms, application-code: 414ms)
- GET /sw.js 404 in 614ms (next.js: 31ms, application-code: 582ms)
- GET /sw.js 404 in 272ms (next.js: 23ms, application-code: 249ms)
- GET /sw.js 404 in 991ms (next.js: 706ms, application-code: 284ms)
- GET /sw.js 404 in 112ms (next.js: 8ms, application-code: 104ms)
- GET /programs 200 in 1584ms (next.js: 1432ms, application-code: 152ms)
- GET /sw.js 404 in 1051ms (next.js: 718ms, application-code: 332ms)
- GET /programs 200 in 899ms (next.js: 703ms, application-code: 197ms)
- GET /programs 200 in 77ms (next.js: 4ms, application-code: 73ms)
- GET /sw.js 404 in 794ms (next.js: 542ms, application-code: 252ms)
- GET /sw.js 404 in 110ms (next.js: 11ms, application-code: 99ms)
- GET /sw.js 404 in 871ms (next.js: 578ms, application-code: 294ms)
+ GET / 200 in 36.2s (next.js: 32.8s, application-code: 3.4s)
+○ Compiling /_not-found ...
+ GET /sw.js 404 in 5.6s (next.js: 4.6s, application-code: 949ms)
+ GET /sw.js 404 in 271ms (next.js: 16ms, application-code: 254ms)
+ GET /sw.js 404 in 2.7s (next.js: 1744ms, application-code: 911ms)
+ GET /sw.js 404 in 120ms (next.js: 9ms, application-code: 111ms)
