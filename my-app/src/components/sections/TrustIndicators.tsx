@@ -1,41 +1,51 @@
-import { Users, Globe2, Shapes, HeartHandshake } from 'lucide-react';
-
 export default function TrustIndicators() {
   const metrics = [
     {
       value: "500+",
       label: "Lives Touched",
-      icon: <Users className="w-6 h-6 text-blue-500" />,
+      icon: (
+        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-blue-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+          <circle cx="9" cy="7" r="4" />
+          <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+          <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+        </svg>
+      ),
       bg: "bg-blue-50/50 hover:bg-blue-50",
-      border: "border-blue-100/50"
+      border: "border-blue-100/50",
     },
     {
       value: "20+",
       label: "Communities",
-      icon: <Globe2 className="w-6 h-6 text-emerald-500" />,
+      icon: (
+        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-emerald-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <circle cx="12" cy="12" r="10" />
+          <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+          <path d="M2 12h20" />
+        </svg>
+      ),
       bg: "bg-emerald-50/50 hover:bg-emerald-50",
-      border: "border-emerald-100/50"
+      border: "border-emerald-100/50",
     },
     {
       value: "10",
       label: "Core Programs",
-      icon: <Shapes className="w-6 h-6 text-purple-500" />,
+      icon: (
+        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-purple-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M8.3 10a.7.7 0 0 1-.626-1.079L11.4 3a.7.7 0 0 1 1.198-.043L16.3 8.9a.7.7 0 0 1-.572 1.1Z" />
+          <rect x="3" y="14" width="7" height="7" rx="1" />
+          <circle cx="17.5" cy="17.5" r="3.5" />
+        </svg>
+      ),
       bg: "bg-purple-50/50 hover:bg-purple-50",
-      border: "border-purple-100/50"
-    },
-    {
-      value: "100%",
-      label: "Inclusive Space",
-      icon: <HeartHandshake className="w-6 h-6 text-rose-500" />,
-      bg: "bg-rose-50/50 hover:bg-rose-50",
-      border: "border-rose-100/50"
+      border: "border-purple-100/50",
     }
   ];
 
   return (
     <section className="py-16 px-4 bg-white/50 backdrop-blur-sm border-b border-gray-100 relative z-20">
       <div className="container mx-auto max-w-6xl">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 bg-white/80 backdrop-blur-xl shadow-[0_20px_50px_-12px_rgba(0,0,0,0.05)] rounded-3xl p-6 md:p-8 -mt-24 md:-mt-32 border border-gray-100/50">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 bg-white/80 backdrop-blur-xl shadow-[0_20px_50px_-12px_rgba(0,0,0,0.05)] rounded-3xl p-6 md:p-8 -mt-24 md:-mt-32 border border-gray-100/50">
           {metrics.map((metric, idx) => (
             <div 
               key={idx} 
